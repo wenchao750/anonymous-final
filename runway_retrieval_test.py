@@ -357,7 +357,7 @@ def main():
     print(f"Top-K: {TOP_K}")
     print(f"MRR@{TOP_K}: {avg_mrr:.6f}")
     print(f"NDCG@{TOP_K}: {avg_ndcg:.6f}")
-    print(f"Precision@{TOP_K}: {avg_precision:.6f}")
+    print(f"Recall@{TOP_K}: {avg_precision:.6f}")
     print("=" * 60)
 
 
