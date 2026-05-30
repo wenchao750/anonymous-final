@@ -26,7 +26,7 @@ QUERY_JSON_PATH = os.path.join(BASE_DIR, "runway-queries.json")
 DOCUMENT_JSON_PATH = os.path.join(BASE_DIR, "runway-document.json")
 CSV_PATH = os.path.join(BASE_DIR, "test.csv")
 
-TOP_K = 10
+TOP_K = 3
 BATCH_SIZE = 64
 USE_CPU = False
 
@@ -270,7 +270,6 @@ def main():
 
     print(f"Loaded queries: {len(queries)}")
     print(f"Loaded documents: {len(documents)}")
-    print(f"Loaded label pairs: {len(label_dict)}")
     print(f"Queries appearing in test.csv: {len(test_query_ids)}")
 
     # 只保留 test.csv 中出现过的 query
