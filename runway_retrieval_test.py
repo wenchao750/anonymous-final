@@ -320,7 +320,7 @@ def main():
     ndcg_list = []
     precision_list = []
 
-    print("Calculating MRR@10, NDCG@10, Precision@10...")
+    print("Calculating MRR@10, NDCG@10, Recall@10...")
 
     for q_idx, qid in enumerate(filtered_query_ids):
         q_emb = query_embeddings[q_idx]
