@@ -26,7 +26,7 @@ QUERY_JSON_PATH = os.path.join(BASE_DIR, "runway-queries.json")
 DOCUMENT_JSON_PATH = os.path.join(BASE_DIR, "runway-document.json")
 CSV_PATH = os.path.join(BASE_DIR, "test.csv")
 
-TOP_K = 3
+TOP_K = 10
 BATCH_SIZE = 64
 USE_CPU = False
 
